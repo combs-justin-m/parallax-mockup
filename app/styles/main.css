@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #777;
+  font-weight: 300;
+}
+
+figure {
+  margin: auto;
+}
+
+.content article {
+  padding: 50px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.heroimage {
+  position: relative;
+  height: 600px;
+  background-image: url(../images/studio.jpg);
+  background-size: auto 600px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+.logo {
+  height: 125px;
+  width: 100%;
+  background-image: url(../images/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -62.5px;
+}
+
+.pencilcup {
+  width: 960px;
+  height: 700px;
+  background-image: url(../images/pencilcup.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 260px;
+}
+
+.onepencil {
+  width: 960px;
+  height: 280px;
+  background-image: url(../images/onepencil.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 120px;
+}
