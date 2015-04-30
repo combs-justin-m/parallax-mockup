@@ -104,12 +104,12 @@ img {
 }
 
 .long-sketch {
-  height: 400px;
+  height: 710px;
   width: 400px;
   background-image: url(../images/long-sketch.jpg);
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin-top: 30px;
-  border-radius: 100%;
+  margin-top: 60px;
+  /*border-radius: 100%;*/
 }
