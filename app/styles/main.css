@@ -5,6 +5,8 @@ body {
 h1 {
   color: #777;
   font-weight: 300;
+  text-align: center;
+  padding: 20px 0;
 }
 
 figure {
@@ -29,7 +31,6 @@ img {
   background-size: auto 600px;
   background-position: top center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   overflow: hidden;
 
 }
@@ -54,9 +55,9 @@ img {
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
-  left: 52%;
+  left: 58%;
   margin-left: -480px;
-  top: 310px;
+  top: 250px;
 }
 
 .onepencil {
@@ -81,5 +82,34 @@ img {
   position: absolute;
   left: 48%;
   margin-left: -480px;
-  top: 180px;
+  top: 160px;
+}
+
+.sketches img {
+  position: relative;
+  height: 260px;
+  width: 350px;
+  padding: 15px 0;
+}
+
+.sketches figure {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out;
+}
+
+.sketches figure.is-showing {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.long-sketch {
+  height: 400px;
+  width: 400px;
+  background-image: url(../images/long-sketch.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 30px;
+  border-radius: 100%;
 }
